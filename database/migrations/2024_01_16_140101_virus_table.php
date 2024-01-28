@@ -18,7 +18,6 @@ return new class extends Migration
             $table->string('type');
             $table->string('danger_level');
             $table->string('affected_platform');
-            $table->string('danger_level');
             $table->string('symptoms');
             $table->string('distribution_method');
             $table->string('prevention');
