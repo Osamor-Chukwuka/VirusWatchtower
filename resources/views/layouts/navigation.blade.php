@@ -16,7 +16,7 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
 
-                    <x-nav-link :href="route('addVirus')" :active="request()->routeIs('dashboard')">
+                    <x-nav-link :href="route('addVirus')" :active="request()->routeIs('addVirus')">
                         {{ __('Add virus') }}
                     </x-nav-link>
                 </div>

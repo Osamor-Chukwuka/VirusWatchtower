@@ -14,4 +14,9 @@ class VirusController extends Controller
             'viruses' => Virus::all()
         ]);
     }
+
+
+    public function create(){
+        return view('addVirus');
+    }
 }
