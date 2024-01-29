@@ -14,14 +14,12 @@
                             <tr>
                                 <th class="border-b border-r dark:border-gray-600">Virus Name</th>
                                 <th class="border-b border-r dark:border-gray-600">Type</th>
-                                <th class="border-b border-r dark:border-gray-600">Symptoms</th>
-                                <th class="border-b border-r dark:border-gray-600">Distribution Method</th>
+                                <th class="border-b border-r dark:border-gray-600">Danger Level</th>
                                 <th class="border-b border-r dark:border-gray-600">Affected Platforms</th>
-                                <th class="border-b border-r dark:border-gray-600">Prevention Tips</th>
-                                <th class="border-b border-r dark:border-gray-600">Removal Steps</th>
-                                <th class="border-b border-r dark:border-gray-600">Antivirus Software</th>
-                                <th class="border-b border-r dark:border-gray-600">Additional Notes</th>
-                                <th class="border-b dark:border-gray-600">References</th>
+                                <th class="border-b border-r dark:border-gray-600">symptoms</th>
+                                <th class="border-b border-r dark:border-gray-600">distribution_method</th>
+                                <th class="border-b border-r dark:border-gray-600">prevention</th>
+                                <th class="border-b border-r dark:border-gray-600">removal</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -31,13 +29,11 @@
                                     <td class="border-r dark:border-gray-600">{{$virus->name}}</td>
                                     <td class="border-r dark:border-gray-600">{{$virus->type}}</td>
                                     <td class="border-r dark:border-gray-600">{{$virus->danger_level}}</td>
-                                    <td class="border-r dark:border-gray-600">{{$virus->affected_level}}</td>
                                     <td class="border-r dark:border-gray-600">{{$virus->affected_platform}}</td>
                                     <td class="border-r dark:border-gray-600">{{$virus->symptoms}}</td>
-                                    <td class="border-r dark:border-gray-600">1. {{$virus->distribution_method}}<br>2. Run</td>
+                                    <td class="border-r dark:border-gray-600">{{$virus->distribution_method}}</td>
                                     <td class="border-r dark:border-gray-600">{{$virus->prevention}}</td>
                                     <td class="border-r dark:border-gray-600">{{$virus->removal}}</td>
-                                    <td>[Source]</td>
                                 </tr>
                             @endforeach
 

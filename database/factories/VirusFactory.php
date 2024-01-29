@@ -17,14 +17,14 @@ class VirusFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => $this->faker->name,
-            'type'=> $this->faker->bloodType,
-            'danger_level'=> $this->faker->numberBetween(1, 10),
-            'affected_platform'=> $this->faker->company,
-            'symptoms'=> $this->faker->sentence,
-            'distribution_method'=> $this->faker->sentence,
-            'prevention'=> $this->faker->sentence,
-            'removal'=> $this->faker->sentence,
+            // 'name' => $this->faker->name,
+            // 'type'=> $this->faker->bloodType,
+            // 'danger_level'=> $this->faker->numberBetween(1, 10),
+            // 'affected_platform'=> $this->faker->company,
+            // 'symptoms'=> $this->faker->sentence,
+            // 'distribution_method'=> $this->faker->sentence,
+            // 'prevention'=> $this->faker->sentence,
+            // 'removal'=> $this->faker->sentence,
         ];
     }
 }
